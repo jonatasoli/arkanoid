@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ArkanoidBallBehaviour.cs" t="Include" />
+          <e p="BallCollisionSoundBehaviour.cs" t="Include" />
           <e p="BrickColorBehaviour.cs" t="Include" />
           <e p="BrickCrackBehaviour.cs" t="Include" />
           <e p="HorizontalAutoMovimentBehaviour.cs" t="Include" />

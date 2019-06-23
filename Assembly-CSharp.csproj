@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ArkanoidBallBehaviour.cs" />
+    <Compile Include="Assets\Scripts\BallCollisionSoundBehaviour.cs" />
     <Compile Include="Assets\Scripts\BrickColorBehaviour.cs" />
     <Compile Include="Assets\Scripts\BrickCrackBehaviour.cs" />
     <Compile Include="Assets\Scripts\HorizontalAutoMovimentBehaviour.cs" />
