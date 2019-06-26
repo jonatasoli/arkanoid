@@ -67,9 +67,12 @@
     <Compile Include="Assets\Scripts\BallCollisionSoundBehaviour.cs" />
     <Compile Include="Assets\Scripts\BrickColorBehaviour.cs" />
     <Compile Include="Assets\Scripts\BrickCrackBehaviour.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameOverBehaviour.cs" />
     <Compile Include="Assets\Scripts\HorizontalAutoMovimentBehaviour.cs" />
     <Compile Include="Assets\Scripts\InputHorizontalMovimentBehaviour.cs" />
     <Compile Include="Assets\Scripts\InputHorizontalPhysicsMovimentBehaviour.cs" />
+    <Compile Include="Assets\Scripts\StartMenuBehaviour.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/home/jonatas/workspace/Arkanoid/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

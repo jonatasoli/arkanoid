@@ -9,7 +9,7 @@ public class BallCollisionSoundBehaviour : MonoBehaviour
 
     public AudioSource soundFXBrickHit;
 
-    public AudioSource souundFXBrickBroken;
+    public AudioSource soundFXBrickBroken;
 
     public AudioSource soundTrack;
     // Start is called before the first frame update
@@ -24,15 +24,13 @@ public class BallCollisionSoundBehaviour : MonoBehaviour
         if (collision.collider.tag == "Wall" || collision.collider.tag == "Paddle")
             soundFXWall.Play();
         else if (collision.collider.tag == "Brick")
-            if (collision.collider.GetComponent<BrickCrackBehaviour>().getLife < 1)
+            soundFXBrickHit.Play();
+
+            /*if (collision.collider.GetComponent<BrickCrackBehaviour>().getLife < 1)
                 soundFXBrickHit.Play();
-            else
-                souundFXBrickBroken.Play();
+            else*/ 
+            //soundFXBrickBroken.Play();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

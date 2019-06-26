@@ -12,9 +12,12 @@
           <e p="BallCollisionSoundBehaviour.cs" t="Include" />
           <e p="BrickColorBehaviour.cs" t="Include" />
           <e p="BrickCrackBehaviour.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="GameOverBehaviour.cs" t="Include" />
           <e p="HorizontalAutoMovimentBehaviour.cs" t="Include" />
           <e p="InputHorizontalMovimentBehaviour.cs" t="Include" />
           <e p="InputHorizontalPhysicsMovimentBehaviour.cs" t="Include" />
+          <e p="StartMenuBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Temp/bin" t="ExcludeRecursive" />
