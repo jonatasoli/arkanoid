@@ -16,11 +16,13 @@ public class ArkanoidBallBehaviour : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = (Vector2.up + Vector2.right) * startSpeedy;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        gameManager.onBallCollision(collision.gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("GameOver"))
-            SceneManager.LoadScene(2);
-        else if (other.CompareTag("SpecialItem"))
-            gameManager.onSpecialItemCollision(other.gameObject);
+        gameManager.onBallCollision(other.gameObject);
     }
 }

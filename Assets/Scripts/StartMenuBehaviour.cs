@@ -7,11 +7,15 @@ using UnityEngine.SceneManagement;
 public class StartMenuBehaviour : MonoBehaviour
 {
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.anyKeyDown)
-            SceneManager.LoadScene("Scenes/MainGame");
+    public GameObject creditsPanel;
 
+    public void pressPlay()
+    {
+        SceneManager.LoadScene("Scenes/MainGame");
+    }
+
+    public void pressCredits(bool show)
+    {
+        creditsPanel.SetActive(show);
     }
 }
